@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Suspense } from "react";
 import { FaLink } from "react-icons/fa";
 
-const words = ["@xvcf", "a developer", "(not) a pro gamer", "hackerman", "german"];
+const words = ["@xvcf", "a developer", "(not) a pro gamer", "hackerman", "from Germany"];
 
 const year = new Date().getFullYear();
 
