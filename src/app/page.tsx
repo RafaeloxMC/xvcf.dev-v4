@@ -41,10 +41,10 @@ export default function Home() {
 					/>
 				</Suspense>
 				<main className="flex flex-col gap-8 row-start-2 items-start sm:items-start mt-auto">
-					<h1 className="lg:text-7xl text-4xl text-wrap font-[family-name:var(--font-figtree-black)]">
+					<h1 className="lg:text-7xl text-4xl text-wrap font-[family-name:var(--font-figtree-black)] text-white">
 						Hey, I&apos;m <FlipWords words={words} />
 					</h1>
-					<p className="text-lg text-wrap font-[weight:var(--font-geist-mono)]">
+					<p className="text-lg text-wrap font-[weight:var(--font-geist-mono)] text-white">
 						Just doing what I like the most :D
 					</p>
 				</main>

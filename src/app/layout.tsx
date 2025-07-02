@@ -25,7 +25,7 @@ const figtreeBlack = localFont({
 
 export const metadata: Metadata = {
 	title: "Home | xvcf.dev",
-	description: "Welcome to xvcf's website!"
+	description: "Welcome to xvcf's website!",
 };
 
 export default function RootLayout({
@@ -35,7 +35,11 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${geistSans.variable} ${geistMono.variable} ${figtree.variable} ${figtreeBlack.variable} antialiased`}>{children}</body>
+			<body
+				className={`${geistSans.variable} ${geistMono.variable} ${figtree.variable} ${figtreeBlack.variable} antialiased bg-black`}
+			>
+				{children}
+			</body>
 		</html>
 	);
 }

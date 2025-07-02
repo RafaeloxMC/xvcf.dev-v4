@@ -7,7 +7,7 @@ const year = new Date().getFullYear();
 
 const Footer = () => {
 	return (
-		<footer className="row-start-3 flex gap-4 flex-col flex-wrap items-center justify-center w-full">
+		<footer className="row-start-3 flex gap-4 flex-col flex-wrap items-center justify-center w-full text-white">
 			<p>My projects and services</p>
 			<div className="flex flex-row w-full h-full items-center justify-center gap-6 row-start-3">
 				<Link
